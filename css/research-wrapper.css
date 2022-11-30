@@ -1,0 +1,11 @@
+body {
+    width: 360px;
+    height: 1682px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+
+    background: var(--dark);
+}

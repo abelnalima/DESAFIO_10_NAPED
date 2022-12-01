@@ -1,0 +1,79 @@
+section {
+    width: 100%;
+    height: 360px;
+}
+
+.section-wrapper {
+    display: flex;
+    
+    width: 100%;
+    height: 100%;
+}
+
+.banner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    width: 100%-60px;
+    height: 100%-48px;
+
+    margin: 48px 30px 0px 30px;
+
+    background: url('../image/12.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner::before {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    content: '';
+
+    background: var(--background-dark);
+}
+
+.banner-title {
+    display: flex;
+    z-index: 1;
+
+    width: 100%;
+
+    margin: 212px 0 0 16px;
+}
+
+.banner-title p {
+    font-family: 'LexendDeca-Regular', sans-serif;
+    font-size: 24px;
+    line-height: 16px;
+
+    color: var(--white-100);
+}
+
+.banner-title p::before {
+    content: 'Animes';
+}
+
+.banner-text {
+    display: flex;
+    z-index: 1;
+
+    width: 100%-53px;
+
+    margin: 12px 37px 0 16px;
+}
+
+.banner-text p {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: var(--white-200);
+}
+
+.banner-text p::before {
+    content: 'O Naped pode ser sua fonte de informações sobre o'
+    ' mundo nerd e outros assuntos relacionados.';
+}

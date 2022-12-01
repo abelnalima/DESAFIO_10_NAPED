@@ -1,0 +1,51 @@
+footer {
+    width: 100%;
+    height: 176px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.webpage-name {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 40px;
+}
+
+.webpage-name p {
+    font-family: 'LexendDeca-Regular', sans-serif;
+    font-size: 22px;
+    line-height: 28px;
+
+    color: var(--purple-light);
+}
+
+.webpage-name p::before {
+    content: 'Naped';
+}
+
+.legal-rights {
+    display: flex;
+
+    margin: 16px 24px 0 24px;
+}
+
+.legal-rights p {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+
+    color: var(--white-200);
+}
+
+.legal-rights p::before {
+    content: 'Todas as imagens de filmes, séries e etc são marcas registradas'
+    ' dos seus respectivos proprietários.';
+}

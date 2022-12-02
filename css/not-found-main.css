@@ -1,0 +1,142 @@
+main {
+    width: 100%;
+    height: 761px;
+}
+
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    width: 100%;
+    height: 312px;
+}
+
+.section-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 100%;
+}
+
+.section-title {
+    display: flex;
+
+    width: 100%-48px;
+
+    margin: 80px 24px 0 24px;
+}
+
+.section-title p {
+    font-family: 'LexendDeca-Regular', sans-serif;
+    font-size: 32px;
+    line-height: 40px;
+
+    color: var(--white-100);
+}
+
+.section-title p::before {
+    content: 'Tenho más notícias para você!';
+}
+
+.section-text {
+    display: flex;
+
+    width: 100%-48px;
+
+    margin: 16px 24px 0 24px;
+}
+
+.section-text p {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: var(--white-200);
+}
+
+.section-text p::before {
+    content: 'A página que você está procurando pode ter sido removida'
+    ' ou está temporariamente indisponível.';
+}
+
+.section-btn {
+    display: flex;
+
+    margin: 32px 0 0 24px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 144px;
+    height: 38px;
+
+    border: none;
+    border-radius: 5px;
+
+    background: var(--purple-light);
+}
+
+button a {
+    font-family: 'LexendDeca-Regular', sans-serif;
+    font-size: 14px;
+    line-height: 34px;
+    text-decoration: none;
+
+    color: var(--white-100);
+}
+
+button a::before {
+    content: 'Voltar a home';
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+    height: 449px;
+}
+
+.banner-image {
+    display: flex;
+
+    width: 100%-49.4px;
+
+    margin: 123px 24.4px 0 25px;
+}
+
+.banner-image svg {
+    width: 310.6px;
+    height: 159.31px;
+}
+
+.banner-text {
+    display: flex;
+
+    width: 100%-48px;
+
+    margin: 40.69px 24px 0 24px;
+}
+
+.banner-text p {
+    font-family: 'Inter-Medium', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+
+    color: var(--white-200);
+}
+
+.banner-text p::before {
+    content: 'Ups! Você chegou no espaço...'
+    ' volte para o mundo nerd!';
+}

@@ -121,3 +121,179 @@ nav {
 .nav-login p::before {
     content: 'Minha conta';
 }
+
+@media screen and (min-width: 768px) {
+    header {
+        width: 100%;
+        height: 58px;
+    }
+    
+    .header-wrapper {
+        width: 100%;
+        height: 100%;
+    }
+    
+    nav {
+        width: 100%;
+        height: 30px;
+    }
+    
+    .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav-title {
+        margin-top: 26px;
+        margin-left: 11.11%;
+    }
+    
+    .nav-title p {
+        font-family: 'LexendDeca-Regular', sans-serif;
+        font-size: 22px;
+        line-height: 28px;
+    
+        color: var(--purple-light);
+    }
+    
+    .nav-title p::before {
+        content: 'Naped';
+    }
+    
+    .nav-options {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 32px;
+
+        width: auto;
+        height: 28px;
+    
+        margin-top: 26px;
+        margin-left: 8%;
+    }
+
+    .option {
+        display: flex;
+    }
+
+    .option a {
+        font-family: 'Inter-Medium', sans-serif;
+        font-size: 14px;
+        line-height: 17px;
+        text-decoration: none;
+
+
+        color: var(--white-100);
+    }
+    
+    #option-1 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        border: none;
+    }
+
+    #option-2 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        border: none;
+    }
+
+    #option-3 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        border: none;
+    }
+
+    #option-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+
+        width: auto;
+        height: 24px;
+    
+        border: none;
+    }
+
+    #option-5 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        border: none;
+    }
+
+    #option-1 a::before {
+        content: 'Home';
+    }
+
+    #option-2 a::before {
+        content: 'Séries';
+    }
+
+    #option-3 a::before {
+        content: 'Filmes';
+    }
+
+    #option-4 a::before {
+        content: 'Animes';
+    }
+
+    #option-5 a::before {
+        content: 'Games';
+    }
+    
+    #option-4 .option-line {
+        width: 52px;
+        height: 2px;
+
+        margin-top: 1px;
+        background: var(--purple-light);
+    }
+    
+    .nav-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        width: 125px;
+        height: 20px;
+    
+        border: 1px solid var(--purple-light);
+        border-radius: 30px;
+    
+        margin: 31px 11.11% 0 0px;
+    }
+    
+    .nav-login p {
+        font-family: 'LexendDeca-Regular', sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+    
+        padding: 0;
+        color: var(--white-100);
+    }
+    
+    .nav-login p::before {
+        content: 'Minha conta';
+    }
+}

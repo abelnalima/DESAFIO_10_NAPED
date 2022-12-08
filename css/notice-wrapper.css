@@ -1,6 +1,6 @@
 body {
     width: 360px;
-    height: 3175px;
+    height: 2750px;
 }
 
 .wrapper {
@@ -10,4 +10,8 @@ body {
     background: var(--dark);
 }
 
-
+@media screen and (min-width: 768px) {
+    body {
+        width: 100vw;
+    }
+}

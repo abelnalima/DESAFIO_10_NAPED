@@ -9,3 +9,9 @@ body {
 
     background: var(--dark);
 }
+
+@media screen and (min-width: 768px) {
+    body {
+        width: 100vw;
+    }
+}

@@ -662,3 +662,321 @@ main {
         ' Nulla eros tellus, malesuada et velit in, blandit molestie dolor.';
     }
 }
+
+@media screen and (min-width: 1024px) {
+    main {
+        width: 100%;
+        height: 2301px;
+    }
+    
+    .main-wrapper {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .main-upper {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 1583px;
+    }
+    
+    .image-1 {
+        display: flex;
+    
+        width: 100%-22.22%;
+        height: 450px;
+    
+        margin: 12px 11.11% 0 11.11%;
+    
+        background: url('../image/17.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .type-info {
+        display: flex;
+    
+        width: 100px;
+        height: 30px;
+    
+        margin: 14px 0 0 8px;
+        border-radius: 3px;
+    
+        background: var(--purple-light);
+    }
+    
+    .type-info p {
+        font-family: 'LexendDeca-Regular', sans-serif;
+        font-size: 18px;
+        line-height: 22px;
+    
+        padding: 3px 22px 4px 22px;
+        color: var(--white-100);
+    }
+    
+    .type-info p::before {
+        content: 'Lorem';
+    }
+    
+    .text-box-1 {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 483px;
+    }
+    
+    .text-box-1 .text-1 {
+        display: flex;
+    
+        width: 100%-22.22%;
+    
+        margin: 40px 11.11% 0 11.11%;
+    }
+    
+    .text-box-1 .text-2 {
+        display: flex;
+    
+        width: 100%-22.22%;
+    
+        margin: 40px 11.11% 0 11.11%;
+
+    }
+    
+    .text-box-1 p {
+        font-family: 'Inter-Regular', sans-serif;
+        font-size: 24px;
+        line-height: 29px;
+    
+        color: var(--white-200);
+    }
+    
+    .text-box-1 p::before {
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        ' Aliquam in mauris vel dolor consectetur scelerisque quis eu eros.'
+        ' Morbi varius eu odio nec vehicula.'
+        ' Maecenas blandit nunc vitae enim fermentum, nec ullamcorper magna molestie.'
+        ' Fusce efficitur ipsum ullamcorper tellus pharetra, et vehicula enim feugiat.'
+        ' Sed scelerisque at orci rhoncus dapibus.'
+        ' Donec maximus porttitor mauris.'
+        ' Sed tempus felis sit amet gravida sagittis.'
+        ' Ut eleifend ornare leo et auctor.';
+    }
+    
+    .main-upper .image-2 {
+        display: flex;
+    
+        width: 100%-22.22%;
+        height: 349px;
+    
+        margin: 43px 11.11% 0 11.11%;
+    
+        background: url('../image/18.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .text-box-2 {
+        display: flex;
+    
+        width: 100%-22.22%;
+    
+        margin: 40px 11.11% 0 11.11%;
+    }
+    
+    .text-box-2 p {
+        font-family: 'Inter-Regular', sans-serif;
+        font-size: 24px;
+        line-height: 29px;
+    
+        color: var(--white-200);
+    }
+    
+    .text-box-2 p::before {
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        ' Aliquam in mauris vel dolor consectetur scelerisque quis eu eros.'
+        ' Morbi varius eu odio nec vehicula.'
+        ' Maecenas blandit nunc vitae enim fermentum, nec ullamcorper magna molestie.'
+        ' Fusce efficitur ipsum ullamcorper tellus pharetra, et vehicula enim feugiat.'
+        ' Sed scelerisque at orci rhoncus dapibus.'
+        ' Donec maximus porttitor mauris.'
+        ' Sed tempus felis sit amet gravida sagittis.'
+        ' Ut eleifend ornare leo et auctor.';
+    }
+    
+    .main-bottom {
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 718px;
+    }
+    
+    .text-box-title {
+        display: flex;
+    
+        height: 100%-11.11%;
+        
+        margin: 101px 0 0 11.11%;
+    }
+    
+    .text-box-title p {
+        font-family: 'LexendDeca-Regular', sans-serif;
+        font-size: 24px;
+        line-height: 20px;
+    
+        color: var(--white-100);
+    }
+    
+    .text-box-title p::before {
+        content: 'Notícias mais recentes';
+    }
+    
+    .text-box-line {
+        display: flex;
+    
+        width: 250px;
+        height: 3px;
+    
+        margin: 13px 0 0 11.11%;
+        background: var(--purple-light);
+    }
+    
+    .recent-notice-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 42px 52px;
+    
+        width: 100%-22.22%;
+        height: 581px;
+    
+        margin: 39px 11.11% 0 11.11%;
+    
+        overflow: hidden;
+    }
+    
+    .recent-notice {
+        position: relative;
+    
+        display: flex;
+        flex-direction: column;
+    
+        width: 100%;
+        height: 250px;
+    }
+    
+    #recent-notice-1 {
+        background: url('../image/17.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #recent-notice-1::before {
+        position: absolute;
+        z-index: 0;
+        inset: 0;
+        content: '';
+    
+        background: var(--background-dark);
+    }
+    
+    #recent-notice-2 {
+        background: url('../image/10.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #recent-notice-2::before {
+        position: absolute;
+        z-index: 0;
+        inset: 0;
+        content: '';
+    
+        background: var(--background-dark);
+    }
+    
+    #recent-notice-3 {
+        background: url('../image/19.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #recent-notice-3::before {
+        position: absolute;
+        z-index: 0;
+        inset: 0;
+        content: '';
+    
+        background: var(--background-dark);
+    }
+    
+    #recent-notice-4 {
+        background: url('../image/13.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #recent-notice-4::before {
+        position: absolute;
+        z-index: 0;
+        inset: 0;
+        content: '';
+    
+        background: var(--background-dark);
+    }
+    
+    .recent-notice-title {
+        display: flex;
+    
+        width: 70px;
+        height: 20px;
+    
+        margin: 10px 0 0 10px;
+        border-radius: 3px;
+        background: var(--purple-light);
+    }
+    
+    .recent-notice-title p {
+        font-family: 'LexendDeca-Regular', sans-serif;
+        font-size: 12px;
+        line-height: 15px;
+    
+        padding: 2px 0 0 17px;
+        color: var(--white-100);
+    }
+    
+    .recent-notice-title p::before {
+        content: 'Lorem';
+    }
+    
+    .recent-notice-text {
+        display: flex;
+        z-index: 1;
+    
+        margin: 140px 0 0 15px;
+    }
+    
+    .recent-notice-text p {
+        font-family: 'LexendDeca-Regular', sans-serif;
+        font-size: 13px;
+        line-height: 20px;
+    
+        color: var(--white-100);
+    }
+    
+    .recent-notice-text p::before {
+        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        ' Nulla eros tellus, malesuada et velit in, blandit molestie dolor.';
+    }
+}

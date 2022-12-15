@@ -351,3 +351,193 @@ nav {
         ' e outros assuntos relacionados.';
     }
 }
+
+@media screen and (min-width: 1024px) {
+    header {
+        width: 100%;
+        height: 56px;
+    }
+    
+    .header-wrapper {
+        display: flex;
+
+        width: 100%;
+        height: 100%;
+    }
+    
+    nav {
+        display: flex;
+        
+        width: 100%;
+        height: 30px;
+
+        margin-top: 26px;
+    }
+    
+    .nav-wrapper {
+        display: flex;
+        flex-direction: row;
+    
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+    
+        width: 100%;
+        height: 100%;
+
+        margin-top: 0;
+        margin-left: 11.11%;
+    }
+    
+    .nav-title {
+        display: flex;
+
+        width: auto;
+        height: 100%;
+        
+        margin-top: 0;
+        margin-left: 0;
+    }
+    
+    .nav-title p {
+        font-family: 'LexendDeca-Regular', sans-serif;
+        font-size: 24px;
+        line-height: 30px;
+    
+        color: var(--purple-light);
+    }
+    
+    .nav-title p::before {
+        content: 'Naped';
+    }
+    
+    .nav-options {
+        display: flex;
+        flex-direction: row;
+        align-items: end;
+
+        width: auto;
+    
+        margin-top: 2px;
+        margin-left: 15%;
+    }
+
+    .option {
+        display: flex;
+
+        height: 19px;
+    }
+
+    .option a {
+        font-family: 'Inter-Medium', sans-serif;
+        font-size: 16px;
+        line-height: 19px;
+        text-decoration: none;
+
+
+        color: var(--white-100);
+    }
+    
+    #option-1 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        border: none;
+    }
+
+    #option-2 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        margin-left: 40px;
+
+        border: none;
+    }
+
+    #option-3 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        margin-left: 40px;
+
+        border: none;
+    }
+
+    #option-4 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        margin-left: 40px;
+
+        border: none;
+    }
+
+    #option-5 {
+        width: auto;
+        height: auto;
+    
+        margin-top: 0;
+        margin-left: 40px;
+
+        border: none;
+    }
+
+    #option-1 a::before {
+        content: 'Home';
+    }
+
+    #option-2 a::before {
+        content: 'Séries';
+    }
+
+    #option-3 a::before {
+        content: 'Filmes';
+    }
+
+    #option-4 a::before {
+        content: 'Animes';
+    }
+
+    #option-5 a::before {
+        content: 'Games';
+    }
+    
+    .nav-menu .option-1 .option-line {
+    
+    }
+    
+    .nav-login {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        width: 125px;
+        height: 28px;
+    
+        border: 1px solid var(--purple-light);
+        border-radius: 30px;
+    
+        margin: 1px 11.11% 0 0px;
+    }
+    
+    .nav-login p {
+        font-family: 'LexendDeca-Regular', sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+    
+        padding: 0;
+        color: var(--white-100);
+    }
+    
+    .nav-login p::before {
+        content: 'Minha conta';
+    }
+}

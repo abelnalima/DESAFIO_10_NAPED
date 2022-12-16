@@ -23,3 +23,10 @@ body {
         height: 2880px;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 100vw;
+        height: 2685px;
+    }
+}

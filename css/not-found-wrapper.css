@@ -21,3 +21,9 @@ body {
         width: 100vw;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    body {
+        width: 100vw;
+    }
+}
